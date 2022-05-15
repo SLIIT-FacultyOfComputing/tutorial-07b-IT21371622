@@ -1,6 +1,3 @@
-
-// Circle.h
-
 class Circle {
    private:
       int radius;
@@ -10,4 +7,5 @@ class Circle {
       ~Circle(); // Destructor
       void display();
       float calcArea();
+      void setRadius(int r);
 };

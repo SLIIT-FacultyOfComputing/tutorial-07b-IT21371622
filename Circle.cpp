@@ -1,7 +1,6 @@
 #include "Circle.h"
 #include <iostream>
 using namespace std;
-
 // Default Constructor Implementation
 Circle::Circle() {
     radius = 0;
@@ -17,7 +16,10 @@ Circle::~Circle() {
 void Circle::display() {
    cout << "Circle Area = " << calcArea() << endl;
 }
-
 float Circle::calcArea() {
     return 22.0/7*radius*radius;
+}
+void Circle::setRadius(int r)
+{
+  radius=r;
 }

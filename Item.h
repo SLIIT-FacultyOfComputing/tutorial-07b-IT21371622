@@ -1,5 +1,5 @@
-// Item.h
 
+// Item.h
 class Item {
    private:
       int itemCode;
@@ -10,6 +10,9 @@ class Item {
       // 2. Write the Overloaded Constructor
       // 3. Write the Destructor
 
+      Item();
+      Item(float punitPrice);
+      ~Item();
       void setDiscount(float punitPrice);
       float getDiscount();
       float discountedPrice();
